@@ -36,7 +36,7 @@ public class MyEventPublishingRunListener implements SpringApplicationRunListene
         try {
             //1.读取我们的my.properties文件
             properties.load(this.getClass().getClassLoader().getResourceAsStream("my.properties"));
-            //2.读取名称为my
+            //2.读取名称为my12
             PropertiesPropertySource propertiesPropertySource = new PropertiesPropertySource("my", properties);
             //3.将资源添加到springboot项目中
             MutablePropertySources propertySources = environment.getPropertySources();
