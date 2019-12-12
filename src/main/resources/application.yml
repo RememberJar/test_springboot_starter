@@ -1,0 +1,5 @@
+bayhoo:
+  token-redis-pwd: 123456
+  token-redis-host: 127.0.0.1
+server:
+  port: 80
