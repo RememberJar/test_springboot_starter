@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 /**
- * Created by lenovo on 2019/12/9.
+ *
  */
 public class MyEventPublishingRunListener implements SpringApplicationRunListener {
 
